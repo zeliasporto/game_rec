@@ -70,7 +70,6 @@ motivos = st.multiselect("Por que você joga videogames?", list(motivos_pt.keys(
 # Nome do jogo favorito
 jogo_favorito = st.text_input("Digite o nome de um jogo que você gosta muito:")
 
-# === Codificação alinhada ===
 colunas_modelo = joblib.load("colunas_modelo.pkl")
 
 def encode_respostas_alinhado():
